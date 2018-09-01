@@ -1,3 +1,31 @@
+@font-face{
+	src: url('./fonts/AvenirNextCyr-Regular.ttf');
+	font-family: AvenirNext;
+}
+
+@font-face{
+	src: url('./fonts/ProximaNova-Reg.otf');
+	font-family: ProximaNova;
+}
+
+@font-face{
+	src: url('./fonts/OpenSans-Regular.ttf');
+	font-family: OpenSans;
+	font-weight: 400;
+}
+
+@font-face{
+	src: url('./fonts/OpenSans-Bold.ttf');
+	font-family: OpenSans;
+	font-weight: 700;
+}
+
+@font-face{
+	src: url('./fonts/OpenSans-Light.ttf');
+	font-family: OpenSans;
+	font-weight: 100;
+}
+
 .header{
 	display: flex;
     justify-content: space-between;
@@ -16,6 +44,7 @@
 	width: 500px;
 	list-style: none;
 	justify-content: space-between;
+	font-family: AvenirNext, sans-serif;
 }
 
 .menu-item{
@@ -40,8 +69,67 @@
 	font-size: 15px;
 	text-transform: uppercase;
 	margin: 5px 0 0 30px;
+	font-family: OpenSans, sans-serif;
+	font-weight: 700;
 }
 
 .main-page{
 	background: #a2ca28;
+}
+
+.benefits{
+	color: #fff;
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+	    width: 1180px;
+    margin: 0 auto;
+}
+
+.benefits__item{
+max-width: 250px;
+}
+
+.benefits__text{
+	font-family: ProximaNova, sans-serif;
+}
+
+.benefits__link{
+	color: #fff;
+	text-decoration: none;
+}
+
+.info{
+	display: flex;
+	    width: 1180px;
+    margin: 0 auto;
+}
+
+.info__title{
+	color: #fd634e;
+	text-transform: uppercase;
+	font-size: 14px;
+}
+
+.info__subtitle{
+	color: #a2ca28;
+	font-size: 35px;
+	text-transform: uppercase;
+	font-family: OpenSans, sans-serif;
+	font-weight: 100;
+}
+
+.info__block{
+	background: #fff;
+	padding: 20px;
+	text-align: center;
+}
+
+.info__text{
+	color: #656e74;
+	font-size: 14px;
+}
+.info__link{
+	color: #a2ca28;
+	font-size: 14px;
 }
