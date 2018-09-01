@@ -6,6 +6,13 @@
 @font-face{
 	src: url('./fonts/ProximaNova-Reg.otf');
 	font-family: ProximaNova;
+	font-weight: 400;
+}
+
+@font-face{
+	src: url('./fonts/ProximaNova-Semibold.ttf');
+	font-family: ProximaNova;
+	font-weight: 600;
 }
 
 @font-face{
@@ -24,6 +31,11 @@
 	src: url('./fonts/OpenSans-Light.ttf');
 	font-family: OpenSans;
 	font-weight: 100;
+}
+
+@font-face{
+	src: url('./fonts/Montserrat-Regular.ttf');
+	font-family: Montserrat;
 }
 
 .header{
@@ -62,6 +74,7 @@
 	font-size: 40px;
 	text-transform: uppercase;
     margin: 500px 0 0 30px;
+    font-family: AvenirNext, sans-serif;
 }
 
 .subtitle{
@@ -82,26 +95,40 @@
 	list-style: none;
 	display: flex;
 	justify-content: space-between;
-	    width: 1180px;
+	width: 1180px;
     margin: 0 auto;
+    padding: 50px 0;
 }
 
 .benefits__item{
-max-width: 250px;
+	max-width: 250px;
+}
+
+.benefits__title{
+	font-family: OpenSans, sans-serif;
+	font-weight: 400;
+	font-size: 24px;
+	margin: 15px 0;
 }
 
 .benefits__text{
 	font-family: ProximaNova, sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	padding: 0 0 20px 0;
 }
 
 .benefits__link{
 	color: #fff;
 	text-decoration: none;
+	font-family: ProximaNova, sans-serif;
+	font-size: 14px;
+	font-weight: 400;
 }
 
 .info{
 	display: flex;
-	    width: 1180px;
+	width: 1180px;
     margin: 0 auto;
 }
 
@@ -109,6 +136,8 @@ max-width: 250px;
 	color: #fd634e;
 	text-transform: uppercase;
 	font-size: 14px;
+	font-family: Montserrat, sans-serif;
+	margin: 0 0 20px 0;
 }
 
 .info__subtitle{
@@ -117,19 +146,101 @@ max-width: 250px;
 	text-transform: uppercase;
 	font-family: OpenSans, sans-serif;
 	font-weight: 100;
+    margin: 0 0 20px 0;	
 }
 
 .info__block{
 	background: #fff;
-	padding: 20px;
+    padding: 40px 60px;
 	text-align: center;
 }
 
 .info__text{
 	color: #656e74;
 	font-size: 14px;
+	font-family: OpenSans, sans-serif;
+	font-weight: 400;
+	margin: 20px 0;
 }
+
 .info__link{
 	color: #a2ca28;
 	font-size: 14px;
+	font-family: OpenSans, sans-serif;
+	font-weight: 400;
+}
+
+.footer{
+	background: #0d1119;
+}
+
+.footer-container{
+	width: 1180px;
+	margin: 0 auto;
+	display: flex;
+    justify-content: space-between;
+    padding: 40px 100px;
+    box-sizing: border-box;
+}
+
+.social{
+	display: flex;
+	width: 250px;
+    justify-content: space-between;
+}
+
+.input{
+	padding: 10px;
+    border-radius: 4px;
+    color: #83969f;
+    font-size: 14px;
+    font-family: ProximaNova, sans-serif;
+    font-weight: 400;
+}
+
+.button{
+	background: #a2ca28;
+    color: #fff;
+    font-size: 14px;
+    font-family: ProximaNova, sans-serif;
+    border-radius: 4px;
+    padding: 12px 20px;
+    font-weight: 600;
+}
+
+.hover{
+	position: relative;
+	width: 794px;
+	height: 394px;
+}
+
+.hover:before{
+	content: '';
+	display: block;
+	position: absolute;
+	background: rgb(0,0,0, 50%);
+	height: 100%;
+	width: 100%;
+}
+
+.text-hover{
+    position: absolute;
+    text-align: center;
+    top: 100px;
+    left: 300px;
+    text-transform: uppercase;
+}
+
+.hover__subtitle{
+	color: #fd634e;
+	font-size: 14px;
+	margin: 20px 0 0;
+	font-family: Montserrat, sans-serif;
+}
+
+.hover__title{
+	color: #a2ca28;
+	font-size: 35px;
+	font-family: OpenSans, sans-serif;
+	font-weight: 100;
 }
