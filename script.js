@@ -14,3 +14,10 @@ var f = "5";
 console.log(a==f);
 console.log(a===f);
 
+console.log(a>b);
+console.log(d<a);
+
+console.log(a<=e);
+
+console.log(a!=f);
+console.log(a!==f);
