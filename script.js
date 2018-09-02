@@ -32,3 +32,9 @@ if (i<5){
 }
 
 console.log(i);
+
+var age = prompt("Сколько вам лет");
+console.log(age);
+
+
+confirm("Вы-администратор?");
