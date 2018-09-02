@@ -21,3 +21,14 @@ console.log(a<=e);
 
 console.log(a!=f);
 console.log(a!==f);
+
+var i = 10;
+
+console.log(i);
+
+if (i<5){
+	console.log("Переменная " + i + " меньше 5");
+ 	i++;
+}
+
+console.log(i);
