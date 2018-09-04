@@ -31,10 +31,28 @@ if (i<5){
  	i++;
 }
 
-console.log(i);
+// console.log(i);
 
-var age = prompt("Сколько вам лет");
-console.log(age);
+// var age = prompt("Сколько вам лет");
+// console.log(age);
 
 
-confirm("Вы-администратор?");
+// confirm("Вы-администратор?");
+
+
+
+for(i=0; i<5; i++){
+	console.log(i);
+	console.log('----');
+}
+
+
+var my_array = [ 1, 2, 3, 45, 6645];
+var names = ['Вася', 'Дима', 'Петя'];
+
+console.log(my_array[0]);
+console.log(my_array[3]);
+
+console.log(names[1]);
+console.log(names[2]);
+
