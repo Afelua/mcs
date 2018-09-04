@@ -48,11 +48,76 @@ for(i=0; i<5; i++){
 
 
 var my_array = [ 1, 2, 3, 45, 6645];
-var names = ['Вася', 'Дима', 'Петя'];
+var names = ['Вася', 'Дима', 'Петя', 'Надя'];
 
 console.log(my_array[0]);
-console.log(my_array[3]);
+console.log(my_array[1]);
+console.log(my_array[2]);
 
+console.log(names[0]);
 console.log(names[1]);
 console.log(names[2]);
 
+function simpleFunction(){
+	console.log(1);
+}
+
+simpleFunction();
+
+function complexFunction(value){
+	console.log(value);
+}
+
+complexFunction(4);
+complexFunction(40);
+
+
+function calcSquare(a, b, c){
+	console.log(a*b);
+}
+
+calcSquare(3, 5, 7);
+
+
+function showArray(array){
+
+	for(i=0; i<3; i++){
+		console.log(array[i]);
+	}
+}
+
+showArray(my_array);
+showArray(names);
+
+
+function Values(){
+	var a = 1;
+	console.log(a);
+}
+
+Values();
+console.log(a);
+
+
+var student1 = {
+	name: "Кирилл",
+	surname: 'Михайлов',
+	age: 22
+}
+
+var student2 = {
+	name: "Михаил",
+	surname: 'Иванов',
+	age: 25
+}
+
+var pet = {
+	color: "white",
+	age: 8
+}
+
+
+console.log(student1.name);
+console.log(student1.surname);
+console.log(pet.age);
+console.log(student2);
