@@ -126,11 +126,14 @@
 	</main>
 	<footer class="footer">
 		<div class="footer-container">
-			<form class="form">
-				<input class="input" type="text" placeholder="Your Name">
-				<input class="input input_email" type="text" placeholder="Your Email">
-				<button class="button">Join Newsletter</button>
+			<form class="form" id="form">
+				<input id="login" class="input" type="text" placeholder="Your Name">
+				<input id="email" class="input input_email" type="text" placeholder="Your Email">
+				<button id="button" class="button">Join Newsletter</button>
 			</form>
+			<div class="success-message" id="success-message">
+				Спасибо, Ваше сообщение отправлено!
+			</div>
 			<ul class="social">
 				<li class="icon icon-fb"></li>
 				<li class="icon icon-tw"></li>
@@ -139,5 +142,6 @@
 			</ul>
 		</div>
 	</footer>
+	<script src="form.js"></script>
 </body>
 </html>
